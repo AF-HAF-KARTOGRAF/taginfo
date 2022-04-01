@@ -52,6 +52,7 @@ taginfo:
     links: Odkazy
     data_from: Data z
     data_from_description: Poslední aktualizace databáze Taginfo
+    characters: Znaky
     instance:
         title: O tomto serveru Taginfo
         other: Viz <a href="//wiki.openstreetmap.org/wiki/Taginfo/Sites">OSM wiki</a> pro infomace o dalších serverech.
@@ -355,6 +356,8 @@ pages:
             count_all_tooltip: Počet objektů s podobným klíčem
             similarity: Podobnost
             similarity_tooltip: Menší číslo znamená podobnější
+        characters:
+            title: Znaky Unicode v tomto klíči
     tag:
         description_from_wiki: Popis této značky z wiki (je-li dostupný ve vašem jazyce, jinak v angličtině).
         no_description_in_wiki: Tato značka nemá žádný anglický popis na wiki. (Viz také záložku "Wiki".)
@@ -437,6 +440,8 @@ pages:
             description: Jak se tento klíč/značka používá v projektu
             count_all_tooltip: Počet objektů v databází s tímto klíčem/značkou
             objects_tooltip: Typ objektů použitých projektem
+        characters:
+            title: Znaky Unicode v tomto klíči
 
 flexigrid:
     pagetext: Strana
@@ -704,3 +709,9 @@ reports:
         wiki_page: Wiki stránka
         lang: Jazyk
         info: Další informace
+unicode:
+    character: Znak
+    codepoint: Kódový bod
+    general_category: Obecná kategorie
+    name: Název bodu v kódu Unicode
+    script: Skript
